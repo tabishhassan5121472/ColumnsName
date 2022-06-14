@@ -1,0 +1,84 @@
+/** CSS Variables */
+
+.table {
+  word-wrap: anywhere;
+  margin: 0.5rem;
+  width: 99% !important;
+}
+
+.table-header {
+  color: white;
+  border: 1px solid #cecece;
+  padding: 2rem;
+}
+
+.table-header.primary-deq {
+  background-color: #0080b7;
+}
+
+.table-header.primary-daq {
+  background-color: #1ab7da;
+}
+
+.table-header.primary-ddw {
+  background-color: #147995;
+}
+
+.table-header.primary-dwq {
+  background-color: #034a64;
+}
+
+.table-header.primary-derr {
+  background-color: #05a68b;
+}
+
+.table-header.primary-dwmrc {
+  background-color: #f26322;
+}
+
+.table-header.primary-grey {
+  background-color: #888888;
+}
+
+.table-header.primary-white {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.table-header.primary-black {
+  background-color: #000000;
+}
+
+.table-bordered th {
+  border: none;
+}
+
+.table thead th {
+  border: 1px solid #cecece;
+  vertical-align: top;
+}
+
+.resizer {
+  display: inline-block;
+  background: #cecece;
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateX(50%);
+  z-index: 1;
+}
+
+.resizer.isResizing {
+  background: #cecece;
+}
+
+.subTable {
+  width: 100%;
+  display: inline-block;
+  /*float: right;*/
+  margin-left: 3rem;
+  padding: 1rem;
+  background-color: #ffffff;
+}
